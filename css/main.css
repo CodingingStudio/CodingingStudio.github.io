@@ -81,3 +81,15 @@ nav {
 .footer > p {
     color: #ffffff;
 }
+
+.footer {
+    padding: 1em 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
