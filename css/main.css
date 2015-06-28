@@ -48,7 +48,7 @@ section {
     color: #74777b;
     font-weight: 300;
     font-size: 2em;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 nav {
@@ -76,4 +76,8 @@ nav {
     .codrops-icon span {
         display: none;
     }
+}
+
+.footer > p {
+    color: #ffffff;
 }

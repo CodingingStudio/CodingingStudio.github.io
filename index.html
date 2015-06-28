@@ -6,73 +6,69 @@
     <meta name="description" content="Codinging Studio: index"/>
     <meta name="keywords" content="Coding Studio, index"/>
     <meta name="author" content="KnightChu"/>
-    <title>Codinging Studio</title>
+    <title>Home - Codinging Studio</title>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="css/moses.css"/>
-    <link rel="stylesheet" type="text/css" href="css/wayra.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.scroll.layout.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.button.wayra.css"/>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 
 <header class="home-header">
     <h1>Codinging Studio</h1>
     <span>一群正在编程的代码贩子</span>
+    <span>上善若水。水善利万物而不争，处众人之所恶，故几于道。</span>
+    <span>居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。</span>
+    <span>夫唯不争，故无尤。</span>
 </header>
 <nav>
     <div class="center">
-        <a href="#"
+        <a href="index.html"
            class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">
             Home
         </a>
-        <a href="index.html"
+        <a href="products.html"
            class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">作品集</a>
         <a href="about.html"
            class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">About
             Us</a>
     </div>
 </nav>
-<div class="grid">
-    <figure class="effect-moses">
-        <img src="img/large/2.jpg" alt="img24"/>
-        <figcaption>
-            <h2>知否 <br><span>天气闹钟</span></h2>
 
-            <p>知否知否，<br>应是绿肥红瘦</p>
-            <a href="/products/zhifou.html">View more</a>
-        </figcaption>
-    </figure>
+<div id="cbp-so-scroller" class="cbp-so-scroller">
 
-    <figure class="effect-moses">
-        <img src="img/large/2.jpg" alt="img24"/>
-        <figcaption>
-            <h2>知否 <br><span>天气闹钟</span></h2>
+    <section class="cbp-so-section">
+        <article class="cbp-so-side cbp-so-side-left">
+            <h2>第一章</h2>
+            <p>道可道，非常道；名可名，非常名。无名，天地之始；有名，万物之母。故常无欲，以观其妙；常有欲，以观其徼。此两者同出而异名，同谓之玄。玄之又玄，众妙之门。</p>
+        </article>
+        <figure class="cbp-so-side cbp-so-side-right">
+            <img src="img/large/2.jpg" alt="img01">
+        </figure>
+    </section>
 
-            <p>知否知否，<br>应是绿肥红瘦</p>
-            <a href="/products/zhifou.html">View more</a>
-        </figcaption>
-    </figure>
+    <section class="cbp-so-section">
+        <figure class="cbp-so-side cbp-so-side-left">
+            <img src="img/large/2.jpg" alt="img01">
+        </figure>
+        <article class="cbp-so-side cbp-so-side-right">
+            <h2>第二章</h2>
+            <p>天下皆知美之为美，斯恶矣；皆知善之为善，斯不善矣。故有无相生，难易相成，长短相形，高下相倾，音声相和，前后相随。是以圣人处无为之事，行不言之教，万物作焉而不辞，生而不有，为而不恃，功成而不居。夫唯不居，是以不去。</p>
+        </article>
+    </section>
+
 </div>
 
 <div class="grid">
-    <figure class="effect-moses">
-        <img src="img/large/2.jpg" alt="img24"/>
-        <figcaption>
-            <h2>知否 <br><span>天气闹钟</span></h2>
-
-            <p>知否知否，<br>应是绿肥红瘦</p>
-            <a href="/products/zhifou.html">View more</a>
-        </figcaption>
-    </figure>
-
-    <figure class="effect-moses">
-        <img src="img/large/2.jpg" alt="img24"/>
-        <figcaption>
-            <h2>知否 <br><span>天气闹钟</span></h2>
-
-            <p>知否知否，<br>应是绿肥红瘦</p>
-            <a href="/products/zhifou.html">View more</a>
-        </figcaption>
-    </figure>
+    <div class="footer">
+        <p>&copy; 2015 Codinging Studio</p>
+    </div>
 </div>
 
+<script src="js/classie.js"></script>
+<script src="js/cbpScroller.js"></script>
+<script>
+    new cbpScroller(document.getElementById('cbp-so-scroller'));
+</script>
 </body>
 </html>
